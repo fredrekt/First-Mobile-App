@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@drawable/water_p"
+    >
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/button_press_badge_two"
+        android:drawableLeft="@drawable/settings_about"
+        android:drawableStart="@drawable/settings_about"
+        android:fontFamily="@font/lemon"
+        android:text="About"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonContact"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/button_press_badge_two"
+        android:drawableLeft="@drawable/contacts_phone"
+        android:drawableStart="@drawable/contacts_phone"
+        android:fontFamily="@font/lemon"
+        android:text="Contact"
+        android:textSize="20sp"
+        tools:text="Contact" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/button_press_badge_two"
+        android:drawableLeft="@drawable/settings_reset"
+        android:drawableStart="@drawable/settings_reset"
+        android:fontFamily="@font/lemon"
+        android:text="Reset"
+        android:textSize="20sp"
+        tools:text="Reset " />
+
+    <ImageButton
+        android:id="@+id/imgHome"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:onClick="openMainMenu"
+        app:srcCompat="@drawable/home_icon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/cour"
+        android:text="Version 3.1.2" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="118dp"
+        android:layout_marginStart="72dp" />
+
+    <TextView
+        android:id="@+id/txtReset"
+        android:layout_width="144dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/cour"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBar3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

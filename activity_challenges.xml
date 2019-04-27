@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Challenges"
+    android:background="@drawable/magic_lake">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/ic_settings"
+        android:onClick="openSettingsNow" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txtOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebas"
+                android:textColor="#000000"
+                android:text="Day One"
+                android:textAlignment="center"
+                android:textSize="40sp" />
+            <ListView
+                android:id="@+id/ListView"
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                />
+
+            <TextView
+                android:id="@+id/txtTwo"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebas"
+                android:text="Day Two"
+                android:textSize="40sp" />
+
+            <ListView
+                android:id="@+id/listView2"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                 />
+
+            <TextView
+                android:id="@+id/txtThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/bebas"
+                android:text="Day Three"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView3"
+                />
+
+            <TextView
+                android:id="@+id/txtFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/bebas"
+                android:text="Day Four"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView4"
+                />
+
+            <TextView
+                android:id="@+id/txtFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/bebas"
+                android:text="Day Five"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView5"
+                />
+
+            <TextView
+                android:id="@+id/txtSix"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebas"
+                android:text="Day Six"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView6"
+                />
+
+            <TextView
+                android:id="@+id/txtSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/bebas"
+                android:text="Day Seven"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView7"
+                />
+
+            <TextView
+                android:id="@+id/txtEight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/bebas"
+                android:text="Day Eight"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView8"
+                />
+
+            <TextView
+                android:id="@+id/txtNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/bebas"
+                android:text="Day Nine"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView9"
+                />
+
+            <TextView
+                android:id="@+id/txtTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="@font/bebas"
+                android:text="Day Ten"
+                android:textSize="40sp" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:id="@+id/listView10"
+                />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
